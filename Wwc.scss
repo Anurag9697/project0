@@ -1,0 +1,31 @@
+%message {
+    font-weight:bold;
+    text-align:center;
+}
+
+#region1 {
+    @extend %message;
+    background-color: #bdb76b;
+}
+
+#region2 {
+    @extend %message;
+    background-color: orange;
+}
+
+#region3 {
+    @extend %message;
+    background-color: orchid;
+}
+#region4 {
+    @extend %message;
+    background-color: red;
+}
+#region5 {
+    @extend %message;
+    background-color: purple;
+}
+#region6{
+    @extend %message;
+    background-color: blue;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+             @media (min-width: 1000px) {
+                h1::before {
+                    content: "COVID-19 - A Pandamic";
+                }
+            }
+
+            @media (max-width: 999px) {
+                h1::before {
+                    content: "COVID-19";
+                }
+            }
+        	html{
+        		background-color: #fff8dc;
+        	}
+            .grid {
+                background-color: green;
+                display: grid;
+                padding: 30px;
+                grid-column-gap: 20px;
+                grid-row-gap: 10px;
+                grid-template-columns: auto auto;
+            }
+
+            .grid-item {
+                background-color: white;
+                font-size: 20px;
+                padding: 20px;
+                text-align: center;
+                height: 240px;
+            }
+            h1{
+            	text-align: center;
+            }
+            img{
+            	width:150px;
+            	height:150px;
+            }
+        </style>
+    </head>
+    <body>
+    	<br><h1></h1>
+        <div class="grid">
+            <div class="grid-item"><img src="1349048.png">
+            	<p>
+            		<a href="Home.html" class="badge badge-primary">Home</a>
+            	</p></div>
+            <div class="grid-item"><img src="globe-computer-icons-earth-symbol-clip-art-world-wide-web-cfc8d92e69c9a096f29fdefd11a2ca6c.png">
+           <p>
+           	<a href="Wwc.html" class="badge badge-primary">WorldWide Cases</a>
+           </p>
+           </div>
+            <div class="grid-item"><img src="hand-washing-hygiene-wash-cc1bef456887481bc15416677d25c7de.png">
+            	<p>
+            		<a href="Precautions.html"class="badge badge-primary">Precaution</a>
+            	</p></div>
+            <div class="grid-item"><img src="telephone-call-computer-icons-iphone-symbol-telefono-656b7d40e24d72890e33727daf924305.png">
+            	<p>
+            		<a href="Contact.html" class="badge badge-primary">Helpline Numbers of India</a>
+            	</p></div>
+        </div>
+    </body>
+</html>

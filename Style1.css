@@ -1,0 +1,19 @@
+*{
+    font-style: italic;
+}
+ul li{
+    color:black;
+}
+li:hover{
+    color:green;
+}
+.bolder{
+    font-weight: bold;
+}
+h1{
+	text-align: center;
+}
+
+td,th{
+	text-align: center;
+}
