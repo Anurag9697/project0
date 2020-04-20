@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,CAAC;EACA,SAAS,EAAC,IAAI;EACd,IAAE;IACD,KAAK,EAAC,KAAK",
+"sources": ["Precautions.scss"],
+"names": [],
+"file": "Precautions.css"
+}

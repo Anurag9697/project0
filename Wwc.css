@@ -1,0 +1,23 @@
+#region1, #region2, #region3, #region4, #region5, #region6 {
+  font-weight: bold;
+  text-align: center; }
+
+#region1 {
+  background-color: #bdb76b; }
+
+#region2 {
+  background-color: orange; }
+
+#region3 {
+  background-color: orchid; }
+
+#region4 {
+  background-color: red; }
+
+#region5 {
+  background-color: purple; }
+
+#region6 {
+  background-color: blue; }
+
+/*# sourceMappingURL=Wwc.css.map */
